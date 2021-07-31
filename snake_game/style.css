@@ -1,0 +1,38 @@
+.canvas{
+
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.score{
+    position: absolute;
+    background-color: rgb(50, 126, 139);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(25, 25, 26);;
+    z-index: 1;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    cursor: pointer;
+    font-family :fantasy ;
+    letter-spacing: 1px;
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 30px;
+    text-transform: uppercase;
+    border: 5px;
+    border-style :solid;
+    border-color: rgb(10, 10, 10);
+    height: 150px;
+    width: 450px;
+}
+
+
+
+
+.hide{
+    display:none;
+}
